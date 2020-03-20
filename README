@@ -1,0 +1,25 @@
+PETRUSCA BOGDAN MIHAI 323CB
+
+Pentru taskul1 am parcurs imaginea pana cand gasesc cuvantul "revient". Atunci cand gasesc
+cuvantul respectiv adaug in variabila "line" linia unde se afla propozitia. Utilizez functia
+"afisare_mesaj" pentru a afisa propozitia pana cand la '.'.
+
+Pentru taskul2 decriptez mesajul cu linia data si pun linia si key-ul in eax astfel: adaug
+in registru mai intai cheia, dupa aceea shiftez la stanga cu 16 si adaug cheia. Dupa aceea 
+adaug caracter cu caracter in fiecare pixel propozitia ceruta si criptez mesajul cu cheia
+ceruta dupa ce fac operatiile necesare.
+
+Pentru taskul3 parcurg enuntul si adaug codul morse al fiecarei litere pe fiecare pixel
+de la offsetul dat.
+
+Pentru taskul4 extrag ultimul bit al fiecarui pixel si il compar cu fiecare bit al fiecarei
+litere. Dupa aceste comparatii ori scad cu 1, ori adaug 1 in pixel.
+
+Pentru taskul5 adaug intr-un registru 8 biti si afisez registrul respectiv. In cazul in care
+registurl are valoare 0 ( adica cei 8 biti sunt 0) ma opresc.
+
+Mai vreau sa precizez ca tema a fost foarte muncitoresca (mai ales taskul 3) si nu consider
+ ca ne-a invatat ceva util deoarece fiecare task avea cam aceeasi idee.
+
+De asemenea puteati sa nu folositi argumente in linia de comanda pentru a putea rula debugerul
+din sasm. Astfel se puteau gasi bug-urile mult mai usor. Multumesc!
